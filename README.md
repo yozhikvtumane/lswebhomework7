@@ -18,7 +18,10 @@
 	* git push origin master
 
 
-4. Make the tests pass!
+4. Move into the `lswebhomework7` folder in your terminal and run `npm install` 
+
+
+4. Make the tests pass! (Use `npm test`)
 
 
 
