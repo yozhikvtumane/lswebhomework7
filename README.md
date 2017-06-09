@@ -1,4 +1,4 @@
-# Homework #2
+# Homework #7
 
 ## Instructions
 ---
@@ -23,7 +23,7 @@
 
 
 
-#### Congratulations on finishing Homework #2!
+#### Congratulations on finishing Homework #7!
 Apply to our full-time or part-time immersive program to learn cutting edge technologies that are used by top technology companies around the world.
 
 Our part-time and full-time courses are 13 intense weeks of focused study on the most relevant technologies.  
