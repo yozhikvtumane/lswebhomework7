@@ -245,7 +245,7 @@ function getRectangularPrismVolume(length, width, height) {
 ////--------------------------------
 
 module.exports = {
-   multiplyByTen: multiplyByTen,
+  multiplyByTen: multiplyByTen,
   subtractFive: subtractFive,
   areSameLength: areSameLength,
   areEqual: areEqual,
@@ -269,7 +269,7 @@ module.exports = {
   getRectangleArea: getRectangleArea,
   getTriangleArea: getTriangleArea,
   getCircleArea: getCircleArea,
-  getRectangularPrismVolume: getRectangularPrismVolume
+  getRectangularPrismVolume: getRectangularPrismVolume,
   getBiggest: getBiggest,
   greeting: greeting,
   isTenOrFive: isTenOrFive,
