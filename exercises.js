@@ -45,6 +45,9 @@ function isInteger(num) {
   //-10 -> true
   //otherwise return false
   //hint: you can solve this using Math.floor
+  if ( num === Math.floor(num)) {
+    return true;
+  } else { return false; }
 }
 
 function fizzBuzz(num) {
