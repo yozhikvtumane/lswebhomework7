@@ -148,142 +148,99 @@ function largestNumber(numbers) {
   //return the largest integer
 }
 
-//Do not change any of the function names
-
-function multiplyByTen(num) {
-  //return num after multiplying it by ten
-  //code here
+function makeCat(name, age) {
+  //create a new object with a name property with the value set to the name argument
+  //add an age property to the object with the value set to the age argument
+  //add a method called meow that returns the string 'Meow!'
+  //return the object
 }
 
-function subtractFive(num) {
-  //return num after subtracting five
-  //code here
+function addProperty(object, property) {
+  //add the property to the object with a value of null
+  //return the object
+  //note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
 }
 
-function areSameLength(str1, str2) {
-  //return true if the two strings have the same length
+function invokeMethod(object, method) {
+  //method is a string that contains the name of a method on the object
+  //invoke this method
+  //nothing needs to be returned
+}
+
+function multiplyMysteryNumberByFive(mysteryNumberObject) {
+  //mysteryNumberObject has a property called mysteryNumber
+  //multiply the mysteryNumber property by 5 and return the product
+}
+
+function deleteProperty(object, property) {
+  //remove the property from the object
+  //return the object
+}
+
+function newUser(name, email, password) {
+  //create a new object with properties matching the arguments passed in.
+  //return the new object
+}
+
+function hasEmail(user) {
+  //return true if the user has a value for the property 'email'
   //otherwise return false
-  //code here
 }
 
-function areEqual(x, y) {
-  //return true if x and y are the same
+function hasProperty(object, property) {
+  //return true if the object has the value of the property argument
+  //property is a string
   //otherwise return false
-  //code here
 }
 
-function lessThanNinety(num) {
-  //return true if num is less than ninety
+function verifyPassword(user, password) {
+  //check to see if the provided password matches the password property on the user object
+  //return true if they match
   //otherwise return false
-  //code here
 }
 
-function greaterThanFifty(num) {
-  //return true if num is greater than fifty
-  //otherwise return false
-  //code here
+function updatePassword(user, newPassword) {
+  //replace the existing password on the user object with the value of newPassword
+  //return the object
 }
 
-function add(x, y) {
-  //add x and y together and return the value
-  //code here
-}
-
-function subtract(x, y) {
-  //subtract y from x and return the value
-  //code here
-}
-
-function divide(x, y) {
-  //divide x by y and return the value
-  //code here
-}
-
-function multiply(x, y) {
-  //multiply x by y and return the value
-  //code here
-}
-
-function getRemainder(x, y) {
-  //return the remainder from dividing x by y
-  //code here
-}
-
-function isEven(num) {
-  //return true if num is even
-  //otherwise return false
-  //code here
-}
-
-function isOdd(num) {
-  //return true if num is false
-  //otherwise return false
-  //code here
-}
-
-function square(num) {
-  //square num and return the new value
-  //code here
-}
-
-function cube(num) {
-  //cube num and return the new value
-  //code here
-}
-
-function raiseToPower(num, exponent) {
-  //raise num to whatever power is passed in as exponent
-  //code here
-}
-
-function roundNumber(num) {
-  //round num and return it
-  //code here
-}
-
-function roundUp(num) {
-  //round num up and return it
-  //code here
-}
-
-function addExclamationPoint(str) {
-  //add an exclamation point to the end of str and return the new string
-  //'hello world' -> 'hello world!'
-  //code here
-}
-
-function combineNames(firstName, lastName) {
-  //return firstName and lastName combined as one string and separated by a space.
-  //'Lambda', 'School' -> 'Lambda School'
-  //code here
-}
-
-function getGreeting(name) {
-  //Take the name string and concatenate other strings onto it so it takes the following form:
-  //'Sam' -> 'Hello Sam!'
-  //code here
-}
-
+<<<<<<< HEAD
 //If you can't remember these area formulas then head over to Google or look at the test code.
 
 function getRectangleArea(length, width) {
   //return the area of the rectangle by using length and width
   //code here
+=======
+function addFriend(user, newFriend) {
+  //user has a property called friends that is an array
+  //add newFriend to the end of the friends array
+  //return the user object
+>>>>>>> upstream/master
 }
 
-function getTriangleArea(base, height) {
-  //return the area of the triangle by using base and height
-  //code here
+function setUsersToPremium(users) {
+  //users is an array of user objects.
+  //each user object has the property 'isPremium'
+  //set each user's isPremium property to true
+  //return the users array
 }
 
-function getCircleArea(radius) {
-  //return the rounded area of the circle given the radius
-  //code here
+function sumUserPostLikes(user) {
+  //user has an array property called 'posts'
+  //posts is an array of post objects
+  //each post object has an integer property called 'likes'
+  //sum together the likes from all the post objects
+  //return the sum
 }
 
-function getRectangularPrismVolume(length, width, height) {
-  //return the volume of the 3D rectangular prism given the length, width, and height
-  //code here
+function addCalculateDiscountPriceMethod(storeItem) {
+  //add a method to the storeItem object called 'calculateDiscountPrice'
+  //this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
+  //the method then subtracts the discount from the price and returns the discounted price
+  //example: 
+  //price -> 20
+  //discountPercentage -> .2
+  //discountPrice = 20 - (20 * .2)
 }
 
 
@@ -334,4 +291,18 @@ module.exports = {
   addNumbers: addNumbers,
   averageTestScore: averageTestScore,
   largestNumber: largestNumber
+  makeCat: makeCat,
+  addProperty: addProperty,
+  invokeMethod: invokeMethod,
+  multiplyMysteryNumberByFive: multiplyMysteryNumberByFive,
+  deleteProperty: deleteProperty,
+  newUser: newUser,
+  hasEmail: hasEmail,
+  hasProperty: hasProperty,
+  verifyPassword: verifyPassword,
+  updatePassword: updatePassword,
+  addFriend: addFriend,
+  setUsersToPremium: setUsersToPremium,
+  sumUserPostLikes: sumUserPostLikes,
+  addCalculateDiscountPriceMethod: addCalculateDiscountPriceMethod
 };
