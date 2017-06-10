@@ -16,9 +16,9 @@ function greeting(language) {
   //if language is undefined return 'Hello!'
   if (language === 'German') {
     return 'Guten Tag!';
-  } if else (language === 'English') {
+  } else if (language === 'English') {
     return 'Hello!';
-  } if else (language === 'Spanish') {
+  } else if (language === 'Spanish') {
     return 'Hola!';
   } else { return 'Hello!'; }
 }
