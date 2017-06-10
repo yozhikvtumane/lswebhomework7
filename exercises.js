@@ -90,7 +90,10 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   //return the last item of the array
-  return arr[arr.length - 1];
+  // version 1
+  // return arr[arr.length - 1];
+  // version 2
+  return arr.pop;
 }
 
 function getArrayLength(arr) {
