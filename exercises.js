@@ -93,7 +93,7 @@ function returnLast(arr) {
   // version 1
   // return arr[arr.length - 1];
   // version 2
-  return arr.pop;
+  return arr.pop();
 }
 
 function getArrayLength(arr) {
