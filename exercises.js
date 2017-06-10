@@ -52,6 +52,9 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   //return the last item of the array
+  // version 1
+  // return arr[arr.length - 1];
+  // version 2
 }
 
 function getArrayLength(arr) {
@@ -59,7 +62,7 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  //arr is an array of integers  
+  //arr is an array of integers
   //increase each integer by one
   //return the array
 }
@@ -183,7 +186,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   //add a method to the storeItem object called 'calculateDiscountPrice'
   //this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   //the method then subtracts the discount from the price and returns the discounted price
-  //example: 
+  //example:
   //price -> 20
   //discountPercentage -> .2
   //discountPrice = 20 - (20 * .2)
@@ -194,31 +197,6 @@ function addCalculateDiscountPriceMethod(storeItem) {
 ////--------------------------------
 
 module.exports = {
-  multiplyByTen: multiplyByTen,
-  subtractFive: subtractFive,
-  areSameLength: areSameLength,
-  areEqual: areEqual,
-  lessThanNinety: lessThanNinety,
-  greaterThanFifty: greaterThanFifty,
-  add: add,
-  subtract: subtract,
-  divide: divide,
-  multiply: multiply,
-  getRemainder: getRemainder,
-  isEven: isEven,
-  isOdd: isOdd,
-  square: square,
-  cube: cube,
-  raiseToPower: raiseToPower,
-  roundNumber: roundNumber,
-  roundUp: roundUp,
-  addExclamationPoint: addExclamationPoint,
-  combineNames: combineNames,
-  getGreeting: getGreeting,
-  getRectangleArea: getRectangleArea,
-  getTriangleArea: getTriangleArea,
-  getCircleArea: getCircleArea,
-  getRectangularPrismVolume: getRectangularPrismVolume,
   getBiggest: getBiggest,
   greeting: greeting,
   isTenOrFive: isTenOrFive,
@@ -236,7 +214,7 @@ module.exports = {
   contains: contains,
   addNumbers: addNumbers,
   averageTestScore: averageTestScore,
-  largestNumber: largestNumber
+  largestNumber: largestNumber,
   makeCat: makeCat,
   addProperty: addProperty,
   invokeMethod: invokeMethod,
@@ -252,3 +230,4 @@ module.exports = {
   sumUserPostLikes: sumUserPostLikes,
   addCalculateDiscountPriceMethod: addCalculateDiscountPriceMethod
 };
+
