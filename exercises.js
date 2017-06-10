@@ -204,18 +204,10 @@ function updatePassword(user, newPassword) {
   //return the object
 }
 
-<<<<<<< HEAD
-//If you can't remember these area formulas then head over to Google or look at the test code.
-
-function getRectangleArea(length, width) {
-  //return the area of the rectangle by using length and width
-  //code here
-=======
 function addFriend(user, newFriend) {
   //user has a property called friends that is an array
   //add newFriend to the end of the friends array
   //return the user object
->>>>>>> upstream/master
 }
 
 function setUsersToPremium(users) {
@@ -237,7 +229,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   //add a method to the storeItem object called 'calculateDiscountPrice'
   //this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   //the method then subtracts the discount from the price and returns the discounted price
-  //example: 
+  //example:
   //price -> 20
   //discountPercentage -> .2
   //discountPrice = 20 - (20 * .2)
