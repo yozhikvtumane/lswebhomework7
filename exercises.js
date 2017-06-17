@@ -37,17 +37,7 @@ function isTenOrFive(num) {
 	if (num === 10) {
 		return true;
 	}
-
 	return false;
-/*	if (num === 5) {
-		if (num === 10) {
-			return true;
-		}
-		return true;
-	} else {
-		return false;
-	}
-*/
 }
 
 function isInRange(num) {
