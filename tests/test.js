@@ -390,8 +390,8 @@ describe('addCalculateDiscountPriceMethod(storeItem)', function() {
   };
 
   it('should add the method \'calculateDiscountPrice\' to the store item object', function() {
-    expect(exercises.addCalculateDiscountPriceMethod(storeItem).calculateDiscountPrice).toBeDefined();
-    expect(exercises.addCalculateDiscountPriceMethod(storeItem2).calculateDiscountPrice).toBeDefined();
+    expect(exercises.addCalculateDiscountPriceMethod(storeItem).calculateDiscountPrice()).toBeDefined();
+    expect(exercises.addCalculateDiscountPriceMethod(storeItem2).calculateDiscountPrice()).toBeDefined();
   });
   it('should return the discount price from the new \'calculateDiscountPrice\' method', function() {
     expect(exercises.addCalculateDiscountPriceMethod(storeItem).calculateDiscountPrice()).toBe(72);
